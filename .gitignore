@@ -1,0 +1,16 @@
+# Local-only private notes (never commit)
+CLAUDE.local.md
+
+
+# Customer data should NOT be committed
+/deals/**/private/
+/deals/**/attachments/
+
+
+# Generated output can be regenerated if needed
+/output/
+
+
+# OS/editor noise
+.DS_Store
+.vscode/

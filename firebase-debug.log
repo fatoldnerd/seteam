@@ -1,0 +1,216 @@
+[debug] [2025-12-19T14:33:59.637Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-19T14:33:59.640Z] > authorizing via signed-in user (bradptowers@gmail.com)
+[debug] [2025-12-19T14:33:59.640Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-19T14:33:59.641Z] > authorizing via signed-in user (bradptowers@gmail.com)
+[debug] [2025-12-19T14:33:59.641Z] Checked if tokens are valid: false, expires at: 1764788049148
+[debug] [2025-12-19T14:33:59.641Z] Checked if tokens are valid: false, expires at: 1764788049148
+[debug] [2025-12-19T14:33:59.641Z] > refreshing access token with scopes: []
+[debug] [2025-12-19T14:33:59.642Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-12-19T14:33:59.642Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-19T14:33:59.643Z] Checked if tokens are valid: false, expires at: 1764788049148
+[debug] [2025-12-19T14:33:59.643Z] Checked if tokens are valid: false, expires at: 1764788049148
+[debug] [2025-12-19T14:33:59.643Z] > refreshing access token with scopes: []
+[debug] [2025-12-19T14:33:59.643Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-12-19T14:33:59.643Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-19T14:33:59.644Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-19T14:33:59.644Z] > authorizing via signed-in user (bradptowers@gmail.com)
+[debug] [2025-12-19T14:33:59.644Z] Checked if tokens are valid: false, expires at: 1764788049148
+[debug] [2025-12-19T14:33:59.644Z] Checked if tokens are valid: false, expires at: 1764788049148
+[debug] [2025-12-19T14:33:59.644Z] > refreshing access token with scopes: []
+[debug] [2025-12-19T14:33:59.644Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-12-19T14:33:59.644Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-19T14:33:59.800Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-12-19T14:33:59.800Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-19T14:33:59.817Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo [none]
+[debug] [2025-12-19T14:33:59.818Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-12-19T14:33:59.818Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-19T14:33:59.831Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo [none]
+[debug] [2025-12-19T14:33:59.832Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-12-19T14:33:59.832Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-19T14:33:59.839Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo [none]
+[debug] [2025-12-19T14:34:00.093Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo 200
+[debug] [2025-12-19T14:34:00.093Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo {"name":"projects/simprodemoscoring/billingInfo","projectId":"simprodemoscoring","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-19T14:34:00.099Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.099Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.099Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.099Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.099Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.099Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.099Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.099Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.099Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.099Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.099Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.099Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.100Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.100Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.105Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.105Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.105Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.105Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.105Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firestore.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.105Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firestore.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.106Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/storage.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.106Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/storage.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.107Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.107Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.107Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.107Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.107Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/fcm.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.107Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/fcm.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.108Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.108Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.108Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.108Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.108Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.108Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.108Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseio.com [none]
+[debug] [2025-12-19T14:34:00.108Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseio.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.271Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo 200
+[debug] [2025-12-19T14:34:00.271Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo {"name":"projects/simprodemoscoring/billingInfo","projectId":"simprodemoscoring","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.275Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.277Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.277Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.277Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.277Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.277Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firestore.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.277Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firestore.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.277Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/storage.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.277Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/storage.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.278Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.278Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.278Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.278Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.278Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/fcm.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.278Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/fcm.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.278Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.278Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.278Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.278Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.279Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.279Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.279Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseio.com [none]
+[debug] [2025-12-19T14:34:00.279Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseio.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.735Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo 200
+[debug] [2025-12-19T14:34:00.735Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo {"name":"projects/simprodemoscoring/billingInfo","projectId":"simprodemoscoring","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-19T14:34:00.737Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.737Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.737Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.737Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.737Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.737Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.737Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.737Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.738Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.738Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.738Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.738Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.738Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.738Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.742Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.742Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.742Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.742Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:00.743Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firestore.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.743Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firestore.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.744Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/storage.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.744Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/storage.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.744Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.744Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.746Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.746Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.746Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/fcm.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.746Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/fcm.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.747Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.747Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.748Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.748Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.748Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-12-19T14:34:00.748Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.749Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseio.com [none]
+[debug] [2025-12-19T14:34:00.749Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseio.com x-goog-quota-user=projects/simprodemoscoring
+[debug] [2025-12-19T14:34:00.884Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseio.com 403
+[debug] [2025-12-19T14:34:00.884Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseio.com [omitted]
+[debug] [2025-12-19T14:34:00.938Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/fcm.googleapis.com 200
+[debug] [2025-12-19T14:34:00.938Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/fcm.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:00.947Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-12-19T14:34:00.947Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:00.948Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/storage.googleapis.com 200
+[debug] [2025-12-19T14:34:00.948Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/storage.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:00.951Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-12-19T14:34:00.951Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:00.956Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/identitytoolkit.googleapis.com 200
+[debug] [2025-12-19T14:34:00.956Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:00.974Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/cloudfunctions.googleapis.com 200
+[debug] [2025-12-19T14:34:00.974Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:00.974Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2025-12-19T14:34:00.974Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.008Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firestore.googleapis.com 200
+[debug] [2025-12-19T14:34:01.008Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firestore.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.040Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-19T14:34:01.040Z] > authorizing via signed-in user (bradptowers@gmail.com)
+[debug] [2025-12-19T14:34:01.040Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:01.040Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:01.040Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo [none]
+[debug] [2025-12-19T14:34:01.319Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo 200
+[debug] [2025-12-19T14:34:01.319Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo {"name":"projects/simprodemoscoring/billingInfo","projectId":"simprodemoscoring","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-19T14:34:01.321Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-19T14:34:01.321Z] > authorizing via signed-in user (bradptowers@gmail.com)
+[debug] [2025-12-19T14:34:01.472Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseio.com 403
+[debug] [2025-12-19T14:34:01.472Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseio.com [omitted]
+[debug] [2025-12-19T14:34:01.499Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseio.com 403
+[debug] [2025-12-19T14:34:01.499Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseio.com [omitted]
+[debug] [2025-12-19T14:34:01.617Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-12-19T14:34:01.617Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.618Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-12-19T14:34:01.618Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.618Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/fcm.googleapis.com 200
+[debug] [2025-12-19T14:34:01.618Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/fcm.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.624Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/storage.googleapis.com 200
+[debug] [2025-12-19T14:34:01.624Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/storage.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.630Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/fcm.googleapis.com 200
+[debug] [2025-12-19T14:34:01.630Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/fcm.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.635Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2025-12-19T14:34:01.635Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.640Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2025-12-19T14:34:01.640Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.646Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/identitytoolkit.googleapis.com 200
+[debug] [2025-12-19T14:34:01.646Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.652Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-12-19T14:34:01.652Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.653Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-12-19T14:34:01.653Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.654Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/storage.googleapis.com 200
+[debug] [2025-12-19T14:34:01.654Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/storage.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.659Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/cloudfunctions.googleapis.com 200
+[debug] [2025-12-19T14:34:01.659Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.659Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/identitytoolkit.googleapis.com 200
+[debug] [2025-12-19T14:34:01.659Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.672Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/cloudfunctions.googleapis.com 200
+[debug] [2025-12-19T14:34:01.672Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.786Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firestore.googleapis.com 200
+[debug] [2025-12-19T14:34:01.786Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firestore.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.787Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firestore.googleapis.com 200
+[debug] [2025-12-19T14:34:01.787Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/simprodemoscoring/services/firestore.googleapis.com [omitted]
+[debug] [2025-12-19T14:34:01.821Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-19T14:34:01.822Z] > authorizing via signed-in user (bradptowers@gmail.com)
+[debug] [2025-12-19T14:34:01.822Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:01.822Z] Checked if tokens are valid: true, expires at: 1766158438832
+[debug] [2025-12-19T14:34:01.822Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo [none]
+[debug] [2025-12-19T14:34:01.999Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo 200
+[debug] [2025-12-19T14:34:01.999Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/simprodemoscoring/billingInfo {"name":"projects/simprodemoscoring/billingInfo","projectId":"simprodemoscoring","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-19T14:34:02.002Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-19T14:34:02.002Z] > authorizing via signed-in user (bradptowers@gmail.com)
