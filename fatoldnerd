@@ -1,0 +1,66 @@
+# SE Team System (Claude Code)
+
+A Claude Code–powered Sales Engineering Operating System: shared context + templates, role-based subagents, and slash commands that generate consistent, deal-ready artifacts (discovery, demo plan, security responses, implementation handoff) with guardrails to prevent invented claims and keep sensitive data out of git.
+
+## What this gives the team
+- Repeatable, standardized deliverables per deal
+- Faster post-call turnaround (less admin, more selling)
+- Cleaner SE → Delivery handoffs (scope, risks, integrations, success criteria)
+- Built-in governance (assumptions flagged, no capability fabrication)
+
+## Repo structure
+- `CLAUDE.md` – system rules + routing hints
+- `context/` – product, competitive, security posture (source of truth)
+- `templates/` – reusable deliverable formats
+- `.claude/agents/` – subagents (research, discovery synthesis, demo, security, handoff)
+- `.claude/commands/` – slash commands (workflows)
+- `deals/` – per-account deal workspaces (keep sensitive data out of git)
+- `output/` – generated outputs (optional)
+
+## Quick start (for an SE)
+1) Open this repo in **Claude Desktop** (Claude Code → Local) or **Cursor** (Claude Code enabled).
+2) Create a deal workspace:
+   - Run: `/new-deal <AccountName>`
+3) In the new deal folder, add inputs:
+   - `inputs/deal-context.md` (fill out)
+   - Add call notes or a transcript to `inputs/`
+4) Generate the post-call package:
+   - Run: `/post-call-package`
+5) Review and send:
+   - `outputs/discovery-summary.md`
+   - `outputs/demo-plan.md`
+   - `outputs/next-step-email.md`
+
+## Subagents (capabilities)
+- `deal-researcher` – pre-call brief, context, discovery questions
+- `discovery-synthesizer` – call notes/transcript → structured discovery summary
+- `demo-architect` – discovery → demo flow + talk track + success criteria
+- `security-responder` – security questionnaire drafts + data-flow narrative (no over-claiming)
+- `handoff-writer` – implementation handoff with scope, integrations, risks, acceptance criteria
+
+## Data safety / rules
+- Do **not** commit sensitive customer information.
+- Store sensitive artifacts in:
+  - `deals/**/private/` or `deals/**/attachments/` (ignored by git)
+  - `CLAUDE.local.md` (local-only, ignored by git)
+- If the system is unsure, it must label content as **Assumption** or **To be confirmed**.
+
+## Customization checklist (admin)
+- Update:
+  - `context/product-overview.md`
+  - `context/competitive-notes.md`
+  - `context/security-posture.md`
+- Tighten templates in `templates/` to match your team’s standards.
+- Add new workflows as slash commands in `.claude/commands/`.
+
+## Troubleshooting
+- If agents/commands aren’t recognized:
+  - Ensure you opened Claude Code from the repo root (this folder)
+  - Restart the Claude Code session
+- If outputs go to the wrong place:
+  - Confirm you are working inside the intended deal folder
+  - Re-run with explicit paths in your request
+
+---
+**Owner:** Sales Engineering  
+**Purpose:** Consistent execution, faster deal cycles, cleaner handoffs.
