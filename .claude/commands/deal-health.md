@@ -1,47 +1,55 @@
 ---
-description: Assess deal completeness and health by scanning for missing critical information across all artifacts.
+description: Assess deal completeness by scanning the most recent deal folder for missing critical info and producing a RED/YELLOW/GREEN report.
 ---
+
 Run a deal health check.
 
-Argument: $ARGUMENTS is the account name (optional - if not provided, use current context).
+Input:
+- $ARGUMENTS = account name (required)
 
 Steps:
-1) Locate the deal folder: deals/$ARGUMENTS/[most recent date]/
-2) Scan all files in inputs/ and outputs/ folders
-3) Check for the following critical elements across all artifacts:
-   - Economic buyer identified (name + role)
-   - Decision timeline with specific date
-   - Quantified success criteria (with numbers)
-   - Implementation owner identified
-   - Budget/pricing discussed
-   - Integration requirements documented
-   - Security/compliance requirements documented
-   - Competitive landscape noted
-4) Generate a health report with three sections:
-   - GREEN: Critical elements present and complete
-   - YELLOW: Critical elements present but vague/incomplete
-   - RED: Critical elements missing entirely
-5) Create a "What We Still Need" action list with specific questions to ask
-6) Output to: deals/$ARGUMENTS/[date]/outputs/deal-health-report.md
+1) Locate the most recent deal folder for the account:
+   - Base path: deals/$ARGUMENTS/
+   - Choose the newest date folder by lexicographic sort (YYYYMMDD).
+2) Scan all files in that folder’s inputs/ and outputs/.
+3) Determine presence + specificity for each element:
 
-Format the report as:
-# Deal Health Report - [Account] - [Date]
+HARD GATES (must be present for anything above RED)
+- Economic buyer: name + role
+- Decision timeline: specific date or clear target window
+- Success criteria: at least 2 measurable metrics
 
-## Health Score: [RED/YELLOW/GREEN]
+MEDIUM ITEMS
+- Implementation owner: name + role (or clearly assigned team)
+- Budget/pricing: confirmed amount OR confirmed owner + planned next step
+- Integrations: named systems + what direction of data flow is needed
+- Security/compliance: named requirements + owner/nexstep
+- Competition: named competitor(s) OR explicit “no competitor identified”
+
+4) Score:
+- RED if any HARD GATE is missing.
+- YELLOW if HARD GATES exist but any are vague, or 2+ MEDIUM ITEMS missing.
+- GREEN if HARD GATES are specific and fewer than 2 MEDIUM ITEMS missing.
+
+5) Output a report to:
+   deals/$ARGUMENTS/<date>/outputs/deal-health-report.md
+
+Report format:
+# Deal Health Report — $ARGUMENTS — <date>
+
+## Health Score: RED | YELLOW | GREEN
 
 ## GREEN ✓ (Complete)
-- [list items]
+-
 
-## YELLOW ⚠ (Incomplete)
-- [list items with what's missing]
+## YELLOW ⚠ (Present but incomplete)
+- Item: what’s missing / what to clarify
 
 ## RED ✗ (Missing)
-- [list items]
+-
 
 ## What We Still Need (Priority Order)
-1. [Specific question/action]
-2. [Specific question/action]
-...
+1) Specific question to ask / action to take
 
 ## Recommendation
-[One sentence: ready to proceed / need more discovery / at risk]
+One sentence: proceed / run more discovery / at risk
