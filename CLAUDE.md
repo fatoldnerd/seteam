@@ -9,6 +9,19 @@ A shared workspace for Sales Engineering to produce consistent, high-quality art
 - Executive brief + value narrative
 - Implementation handoff
 
+## Deal workflow (required)
+1) /new-deal <Account>
+2) Update inputs/deal-context.md
+3) Add call notes for each interaction:
+   - call-01-discovery.md
+   - call-02-demo.md
+   - call-03-technical.md
+   - call-04-exec.md
+4) After each call, run:
+   - /call-synthesis <Account>
+   - /deal-health <Account>
+
+
 ## Non-negotiable rules
 1) Tie everything to the customer’s operational workflow and measurable outcomes.
 2) Never invent product capabilities. If unknown, add an explicit “Assumption” section.
