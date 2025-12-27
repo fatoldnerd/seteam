@@ -14,3 +14,17 @@ CLAUDE.local.md
 # OS/editor noise
 .DS_Store
 .vscode/
+.clinerules/byterover-rules.md
+.kilocode/rules/byterover-rules.md
+.roo/rules/byterover-rules.md
+.windsurf/rules/byterover-rules.md
+.cursor/rules/byterover-rules.mdc
+.kiro/steering/byterover-rules.md
+.qoder/rules/byterover-rules.md
+.augment/rules/byterover-rules.md
+# Firebase debug logs (never commit)
+firebase-debug.log
+**/firebase-debug.log
+
+# Deal artifacts (commit templates/system, not per-deal outputs)
+deals/**/outputs/
