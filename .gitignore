@@ -28,3 +28,8 @@ firebase-debug.log
 
 # Deal artifacts (commit templates/system, not per-deal outputs)
 deals/**/outputs/
+
+# Ignore all deal folders except the shared template
+deals/*
+!deals/_template/
+!deals/_template/**
